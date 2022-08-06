@@ -1,24 +1,24 @@
 # README
 
-**Documentation languages**:
+**Языки документации**:
 
 - [English](README.md)
 - [Русский](README-ru.md)
 
-**Menu**:
+**Меню**:
 
-- [Task](#task)
-- [How to run app](#how-to-run-app)
-- [Application stack](#application-stack)
-- [Project structure](#project-structure)
+- [Задание](#задание)
+- [Как запустить приложение](#как-запустить-приложение)
+- [Стэк приложений](#стэк-приложений)
+- [Структура проекта](#структура-проекта)
 
-## Task
+## Задание
 
-Write admin panel
+Написать админ панель
 
-## How to run app
+## Как запустить приложение
 
-### Development
+### Разработка
 
 ```bash
 git clone https://github.com/ooodepa/ooodepa_new_admin_panel.git
@@ -30,7 +30,7 @@ cp .env.example .env
 npm run start
 ```
 
-### Production
+### Продакшен
 
 ```bash
 git clone https://github.com/ooodepa/ooodepa_new_admin_panel.git
@@ -46,25 +46,26 @@ docker-compose -f docker-compose.prod.yml up
 #docker-compose -f docker-compose.prod.yml down
 ```
 
-## Application stack
+## Стэк приложений
 
-- **[VS Code](https://code.visualstudio.com/#alt-downloads)** - code editor
-- **[Firefox](https://www.mozilla.org/en-US/firefox/enterprise/)** - browser
-- **[Node JS](https://nodejs.org/en/)** - for application development
-  - **[React](https://reactjs.org/tutorial/tutorial.html)** - frontend framework
+- **[VS Code](https://code.visualstudio.com/#alt-downloads)** - редактор кода
+- **[Firefox](https://www.mozilla.org/en-US/firefox/enterprise/)** - браузер
+- **[Node JS](https://nodejs.org/en/)** - для разработки приложения
+  - **[React](https://reactjs.org/tutorial/tutorial.html)** - фреймворк для
+    фронтенда
   - **[React props types](https://www.npmjs.com/package/prop-types)** - check
     props types
-  - **[React-hook-form](https://react-hook-form.com/get-started)** - library for
-    form validation
+  - **[React-hook-form](https://react-hook-form.com/get-started)** - библиотека
+    для проверки формы
   - **[Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react)** -
-    icons
-  - **[Font Inter](https://www.npmjs.com/package/typeface-inter)** - font
-  - **[Toastr](https://codeseven.github.io/toastr/demo.html)** - library to
-    display messages on the screen that disappear on their own
-- **[Docker, docker-compose](https://www.docker.com/)** - containers
-- **[GitHub pages](https://pages.github.com/)** - Jekyll hosting from GitHub
+    иконки
+  - **[Font Inter](https://www.npmjs.com/package/typeface-inter)** - шрифт
+  - **[Toastr](https://codeseven.github.io/toastr/demo.html)** - библиотека,
+    чтобы выводить сообщения на экран, которые сами пропадают
+- **[Docker, docker-compose](https://www.docker.com/)** - контейнеры
+- **[GitHub pages](https://pages.github.com/)** - хостинг Jekyll от GitHub
 
-## Project structure
+## Структура проекта
 
 ```bash
 sudo apt install tree

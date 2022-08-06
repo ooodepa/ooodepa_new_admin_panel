@@ -1,0 +1,19 @@
+.label {
+  display: block;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.label span {
+  display: block;
+  min-width: calc(30% - 8px);
+  float: left;
+  padding-right: 8px;
+}
+
+.label input {
+  min-width: calc(70% - 1px * 2 - 4px * 2);
+  border: 1px solid #b3ac86;
+  border-radius: 4px;
+  padding: 4px;
+}

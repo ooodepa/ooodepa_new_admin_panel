@@ -1,0 +1,37 @@
+.ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ul li {
+  list-style-type: none;
+  margin: 8px;
+}
+
+.ul li a {
+  display: block;
+  width: 120px;
+  height: calc(100% - 8px * 2);
+
+  padding: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+.ul li a:hover {
+  border-color: var(--site-color);
+}
+
+.icon_block {
+  text-align: center;
+  font-size: 3em;
+}
+
+.title_block {
+  text-align: center;
+}

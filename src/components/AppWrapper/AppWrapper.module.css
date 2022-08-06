@@ -1,0 +1,15 @@
+.AppWrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.AppWrapper_not_footer {
+  flex: 0 0 auto;
+}
+
+.AppWrapper_footer {
+  flex: 1 0 auto;
+}

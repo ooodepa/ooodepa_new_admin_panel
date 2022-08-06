@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  frontend:
+    image: pavelinnokentevichgalanin/ooodepa_admin_panel
+    ports:
+      - 80:80

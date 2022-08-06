@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      args:
+        - REACT_APP__USE_HASH_ROUTER=${REACT_APP__USE_HASH_ROUTER}
+        - REACT_APP__URL_BACKEND_SERVER=${REACT_APP__URL_BACKEND_SERVER}
+    ports:
+      - 80:80

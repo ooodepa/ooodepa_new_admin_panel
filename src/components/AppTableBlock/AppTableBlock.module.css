@@ -1,0 +1,59 @@
+.table_block {
+  width: calc(100% - 8px * 2);
+  border: 1px solid #b3ac86;
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #fcfaeb;
+  position: relative;
+  margin-top: 3em;
+}
+
+.table_block > .title {
+  position: absolute;
+  height: 1.2em;
+  top: calc(-1.2em - 8px - 1px);
+  left: -1px;
+
+  padding: 8px 8px 0 8px;
+
+  font-size: 1em;
+  background-color: #fcfaeb;
+  border-top: 1px solid #b3ac86;
+  border-left: 1px solid #b3ac86;
+  border-right: 1px solid #b3ac86;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.table_block table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_block table td,
+.table_block table th {
+  border: 1px solid #dedede;
+  padding: 8px;
+}
+
+.table_block table th {
+  background-color: #f5f2dc;
+  color: #7a7b75;
+  text-align: left;
+}
+
+.table_block table tr:hover {
+  background-color: #e9ecef;
+}
+
+.table_block table td > select {
+  width: 100%;
+}
+
+.table_block > div {
+  margin: 8px;
+}
+
+.table_block > div > button {
+  margin: 0 4px;
+}

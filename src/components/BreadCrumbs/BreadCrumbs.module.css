@@ -1,0 +1,33 @@
+.breadcrumbs_block {
+  background-color: #f7f7f7;
+  padding: 16px 0;
+}
+
+.breadcrumbs_block ol {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs_block ol > li {
+  list-style-type: none;
+}
+
+.breadcrumbs_block ol > li::after {
+  content: '/';
+  padding: 0 4px;
+}
+
+.breadcrumbs_block ol > li > a {
+  text-decoration: none;
+  color: var(--site-color);
+}
+
+.breadcrumbs_block ol > li:last-child > a {
+  color: grey;
+}
+
+.breadcrumbs_block ol > li:last-child::after {
+  content: '';
+}
